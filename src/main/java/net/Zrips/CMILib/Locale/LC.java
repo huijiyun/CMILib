@@ -129,6 +129,15 @@ public enum LC {
     info_oneHour("{gcs}[hours] {gcp}hour "),
     info_min("{gcs}[mins] {gcp}min "),
     info_sec("{gcs}[secs] {gcp}sec "),
+    
+
+    info_time_separator("{gcn}:"),
+    info_time_short_year("{gcs}[years]{gcp}Y"),
+    info_time_short_month("{gcs}[months]{gcp}M"),
+    info_time_short_day("{gcs}[days]{gcp}d"),
+    info_time_short_hour("{gcs}[hours]{gcp}h"),
+    info_time_short_min("{gcs}[mins]{gcp}m"),
+    info_time_short_sec("{gcs}[secs]{gcp}s"),
 
     info_nextPageConsole("{gcn}For next page perform {gcs}[command]"),
     info_prevPage("{gcn}----<< {gcp}Prev "),
@@ -175,6 +184,15 @@ public enum LC {
     info_fullVector("{gcp}X:{gcs}[x] {gcp}Y:{gcs}[y] {gcp}Z:{gcs}[z]"),
 
     info_incorrectColor("{gcw}Color defined incorrectly!"),
+
+    info_updateSpeed("{gcp}Update speed: {gcs}[value]"),
+    info_serializeAndShow("{gcp}Serialize and show"),
+    info_amount("{gcp}Amount: {gcs}[value]"),
+    info_speed("{gcp}Speed: {gcs}[value]"),
+    info_color("{gcp}Color: [color]Example"),
+    info_duration("{gcp}Duration: [value]"),
+    info_size("{gcp}Size: [value]"),
+    info_value("{gcp}Value: [value]"),
 
     dialog_signEditor("Sign Editor"),
     dialog_update("Update"),
